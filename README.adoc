@@ -1,1 +1,7 @@
-# transacted
+= transacted
+
+== Intro
+This small Camel project assumes an ActiveMQ queue where it reads messages and sends to a REST service.
+
+Using _transacted_ to test if message is transferred to DLQ if REST is not responding.
+
