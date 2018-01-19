@@ -54,7 +54,7 @@ import javax.annotation.PreDestroy;
 /**
  * The class MainApplication
  *
- * @author mgr, (c) TradeChannel AB, 2017-03-08
+ * @author mgr,
  * @version 1.0
  */
 @SpringBootApplication

@@ -58,12 +58,17 @@ import static org.springframework.jms.listener.DefaultMessageListenerContainer.C
 /**
  * The class Config
  *
- * @author mgr, (c) TradeChannel AB, 2016-12-05
+ * @author mgr,
  * @version 1.0
  */
 @Configuration
 public class ConfigurationBeans {
 
+    /**
+     * Active mq connection factory active mq connection factory.
+     *
+     * @return the active mq connection factory
+     */
     @Bean
     public ActiveMQConnectionFactory activeMQConnectionFactory() {
         return new ActiveMQConnectionFactory();
@@ -116,6 +121,9 @@ public class ConfigurationBeans {
     /**
      * Active mq component active mq component.
      *
+     * @param jmsConfiguration        the jms configuration
+     * @param pooledConnectionFactory the pooled connection factory
+     * @param transactionManager      the transaction manager
      * @return the active mq component
      */
     @Bean

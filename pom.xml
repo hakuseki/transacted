@@ -61,7 +61,6 @@
         <camel-version>2.20.1</camel-version>
         <activemq-version>5.15.2</activemq-version>
         <spring.boot-version>1.5.9.RELEASE</spring.boot-version>
-        <jasypt-version>1.9.2</jasypt-version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>

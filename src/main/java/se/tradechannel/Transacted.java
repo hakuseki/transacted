@@ -56,7 +56,7 @@ import java.net.ConnectException;
 /**
  * The class Transacted
  *
- * @author mgr, (c) TradeChannel AB, 2018-01-19
+ * @author mgr,
  * @version 1.0
  */
 @Component
